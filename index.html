@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="profile.jpg"
+        alt="Olalekan Alao"
+        class="profile-picture"
+        data-testid="profilePicture"
+      />
+      <h1 class="full-name" data-testid="fullName">Olalekan Alao</h1>
+      <p class="job-title" data-testid="jobTitle">DevOps Engineer</p>
+      <p class="short-bio" data-testid="shortBio">
+        A dedicated and detail-oriented DevOps Engineer with a strong background
+        in automation, deployment, and cloud infrastructure. Skilled at
+        optimizing CI/CD pipelines, managing Kubernetes clusters, and
+        streamlining development workflows.
+      </p>
+      <p class="current-location" data-testid="currentLocation">
+        FCT Abuja, Nigeria
+      </p>
+      <a
+        href="mailto:alao8380@yahoo.com"
+        class="email-address"
+        data-testid="emailAddress"
+        >alao8380@yahoo.com</a
+      >
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://x.com/AlaoOla12407401" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/in/alao-olalekan/" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/lakelexy/My-Profile-Card" target="_blank"
+          >GitHub</a
+        >
+      </div>
+      <p class="current-time" data-testid="currentTimeUTC"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.profile-picture {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.full-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.job-title {
+  font-size: 1rem;
+  color: #777;
+  margin: 10px 0;
+}
+
+.short-bio {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.current-location {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.email-address {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.email-address:hover {
+  text-decoration: underline;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.current-time {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 15px;
+  }
+
+  .full-name {
+    font-size: 1.2rem;
+  }
+
+  .job-title,
+  .short-bio,
+  .current-location {
+    font-size: 0.8rem;
+  }
+}
